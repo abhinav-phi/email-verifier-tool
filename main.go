@@ -13,7 +13,7 @@ func main(){
 
 
 	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Printf("domain, hasMX, hasSPF, sprRecord, hasDMARC, dmarcRecord\n")
+	fmt.Printf("domain, hasMX, hasSPF, spfRecord, hasDMARC, dmarcRecord\n")
 
 	for scanner.Scan(){
 		checkdomain(scanner.Text())
