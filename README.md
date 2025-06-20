@@ -10,6 +10,12 @@ A lightweight Go command-line tool that checks email domains for essential email
 - **Batch Processing**: Process multiple domains from standard input
 - **CSV Output**: Results formatted as comma-separated values for easy analysis
 
+## Demo Video
+
+Watch a screen recording demonstration of the tool: 
+> https://github.com/user-attachments/assets/3c57eef5-403e-4735-96b9-c7496914f302
+
+
 ## Installation
 
 ### Prerequisites
@@ -71,7 +77,7 @@ invalid-domain.xyz,false,false,,false,
 | `domain` | The domain being checked |
 | `hasMX` | Boolean indicating if MX records exist |
 | `hasSPF` | Boolean indicating if SPF record is configured |
-| `sprRecord` | The actual SPF record content (if found) |
+| `spfRecord` | The actual SPF record content (if found) |
 | `hasDMARC` | Boolean indicating if DMARC policy exists |
 | `dmarcRecord` | The actual DMARC record content (if found) |
 
@@ -126,8 +132,19 @@ Errors are logged to stderr while maintaining CSV output format for successful l
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
 For issues, questions, or contributions, please open an issue in the repository.
+
+## 📧 Contact
+
+**GitHub** : [abhinav-phi](https://github.com/abhinav-phi)
+
+**Project Link** : [click here](https://github.com/abhinav-phi/email-verifier-tool)
+
+---
+
+⭐ If you found this project helpful, please give it a star!
+
